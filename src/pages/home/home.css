@@ -1,0 +1,25 @@
+.sub-header{
+    text-align: center;
+    margin-top: 1rem;
+    .p{
+        text-align: justify;
+    }
+
+}
+.product-stats {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .side-product{
+    display: flex;
+   
+  }
+  .hide{
+    @media (max-width:768px) {
+      display: none;
+    }
+  }

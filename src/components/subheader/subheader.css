@@ -1,0 +1,42 @@
+.subheader{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-top: 0.1px solid rgba(128, 128, 128, 0.574);  
+    border-bottom: 0.1px solid rgba(128, 128, 128, 0.564);
+    height: 40px;
+    margin-top: 3rem;
+    span{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        p{
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        div{
+            button{
+                border: none;
+                background-color:white;
+                border-bottom: 0.1px solid rgba(128, 128, 128, 0.536);
+                text-transform: uppercase;
+                cursor: pointer;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+.select-div{
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-weight: 600;
+
+    option{
+        border: none;
+    }
+}

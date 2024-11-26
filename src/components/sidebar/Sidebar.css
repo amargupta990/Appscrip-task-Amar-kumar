@@ -1,0 +1,96 @@
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color:white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter {
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 0.1px solid rgba(128, 128, 128, 0.679);
+    text-transform: uppercase;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+
+  .selectside {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    
+  }
+  
+
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .dropdown-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .dropdown-list li {
+    padding: 8px;
+   
+  }
+  
+  .dropdown-list li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+  
+  .dropdown-list li a:hover {
+    background-color: #f1f1f1;
+  }
+  
+ 
+  .nested-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+  
+  .nested-list li {
+    padding: 5px 0;
+  }
+  
+  .nested-list li a {
+    color: #555;
+  }
+  
+  .dropdown-btn:focus + .dropdown-list,
+  .dropdown-list li:hover .nested-list {
+    display: block;
+  }
+  
